@@ -6,6 +6,7 @@ My first javascript project for an assigment.
 No backend, the word lists are stored as constants. 
  
 **Frontend**:
+* HTML5
 * Javascript
 * CSS3
 * Google Web Font (self-hosted)
