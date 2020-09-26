@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>The Hangman</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="title">The Hangman</h1>
+    </div>
+
+    <div id="game">
+        <div>
+            <input id="language" type="image" alt="language" src="img/language_black.png" width="32px"
+                onclick="changeLanguage()">
+        </div>
+        <div id="state">
+            <div>
+                <img id="stickman" src="img/0.png">
+            </div>
+            <div>
+                <p id="word"></p>
+            </div>
+            <div>
+                <p id="lives"></p>
+            </div>
+            <div id="statistics-container">
+                <p id="statistics"></p>
+                <button id="reset-statistics" onclick="resetStatistics()">Delete</button>
+            </div>
+        </div>
+        <div id="letters">
+        </div>
+    </div>
+    <div id="controls">
+        <label id="categoryLabel">Category:</label>
+        <select id="category">
+            <option value="any" id="any" selected>Any</option>
+            <option value="animals" id="animals">Animals</option>
+            <option value="cities" id="cities">Cities</option>
+            <option value="colors" id="colors">Colors</option>
+        </select>
+        <button id="play" onclick="play()">Play</button>
+    </div>
+</body>
+
+</html>
