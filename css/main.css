@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'permanent_markerregular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/PermanentMarker-webfont.woff');
+    src: url('fonts/PermanentMarker-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PermanentMarker-webfont.woff') format('woff'),
+        url('fonts/PermanentMarker-webfont.ttf') format('truetype');
+}
+
+* {
+    background: white;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    font-size: 16px;
+    text-align: center;
+}
+
+#cabecera {
+    padding: 10px;
+    text-align: center;
+}
+
+#cabecera h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#juego {
+    display: inline-block;
+}
+
+#idioma {
+    float: right;
+    text-align: right;
+}
+
+#palabra {
+    font-size: 30px;
+}
+
+#vidas {
+    font-size: 20px;
+}
+
+#estadisticas {
+    display: inline;
+    margin: auto;
+}
+
+#resetear-estadisticas {
+    background-color: black;
+    border: solid 2px white;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+}
+
+#letras {
+    display: inline-block;
+    width: 425px;
+}
+
+#letras button {
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 2px;
+    color: black;
+    font-size: 26px;
+    height: 45px;
+    margin: 1px;
+    text-align: center;
+    width: 45px;
+}
+
+#letras button:hover:not(:disabled) {
+    background-color: black !important;
+    color: white !important;
+}
+
+:disabled {
+    opacity: 0.5;
+}
+
+#jugar {
+    background-color: black;
+    border: solid 2px white;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
