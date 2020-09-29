@@ -1,51 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="js/main.js"></script>
-    <title>The Hangman</title>
+    <title>El Ahorcado</title>
 </head>
 
 <body>
-    <div id="header">
-        <h1 id="title">The Hangman</h1>
+    <div id="cabecera">
+        <h1 id="titulo">El Ahorcado</h1>
     </div>
 
-    <div id="game">
+    <div id="juego">
         <div>
-            <input id="language" type="image" alt="language" src="img/language_black.png" width="32px"
-                onclick="changeLanguage()">
+            <input id="idioma" type="image" alt="idioma" src="img/language_black.png" width="32px"
+                onclick="cambiarIdioma()">
         </div>
-        <div id="state">
+        <div id="estado">
             <div>
-                <img id="stickman" src="img/0.png">
+                <img id="figura" src="img/0.png">
             </div>
             <div>
-                <p id="word"></p>
+                <p id="palabra"></p>
             </div>
             <div>
-                <p id="lives"></p>
+                <p id="vidas"></p>
             </div>
-            <div id="statistics-container">
-                <p id="statistics"></p>
-                <button id="reset-statistics" onclick="resetStatistics()">Delete</button>
+            <div id="contenedor-estadisticas">
+                <p id="estadisticas"></p>
+                <button id="resetear-estadisticas" onclick="resetearEstadisticas()">Borrar</button>
             </div>
         </div>
-        <div id="letters">
+        <div id="letras">
         </div>
     </div>
-    <div id="controls">
-        <label id="categoryLabel">Category:</label>
-        <select id="category">
-            <option value="any" id="any" selected>Any</option>
-            <option value="animals" id="animals">Animals</option>
-            <option value="cities" id="cities">Cities</option>
-            <option value="colors" id="colors">Colors</option>
+    <div id="controles">
+        <label id="categoriaLabel">Categoría:</label>
+        <select id="categoria">
+            <option value="cualquiera" id="cualquiera" selected>Cualquiera</option>
+            <option value="animales" id="animales">Animales</option>
+            <option value="ciudades" id="ciudades">Ciudades</option>
+            <option value="colores" id="colores">Colores</option>
         </select>
-        <button id="play" onclick="play()">Play</button>
+        <button id="jugar" onclick="jugar()">Jugar</button>
     </div>
 </body>
 
