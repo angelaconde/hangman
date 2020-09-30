@@ -10,8 +10,8 @@ No backend, the word lists are stored as constants.
 
 ## How to Play
 1. You can choose a category from the following options:
-    1.1 Anything (selected by default)
-    1.2 Animals
+    i Anything (selected by default)
+    ii Animals
     1.3 Cities
     1.4 Colours
 2. Hit the PLAY button.
