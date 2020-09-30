@@ -1,7 +1,7 @@
 # Hangman
 Simple hangman game.
 
-![ahorcado](https://github.com/angelaconde/hangman/blob/master/preview01?raw=true)
+![image](https://github.com/angelaconde/hangman/blob/master/preview01?raw=true)
 
 My first javascript project for an assigment.
 
