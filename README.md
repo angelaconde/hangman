@@ -4,7 +4,7 @@ Simple hangman game.
 
 ![Preview (Spanish)](https://github.com/angelaconde/hangman/blob/master/preview01.png)
 
-My first javascript project for an assigment.
+My first JavaScript project for an assigment.
 
 No backend, the word lists are stored as constants. 
 
@@ -21,6 +21,7 @@ No backend, the word lists are stored as constants.
 4. The game ends when:
     - You correctly guess the whole word.
     - You lose all lives.
+5. You can check your stats (wins, loses and current win streak) and reset them.
 
 ## Changing the language
 The game starts by default in Spanish, you can change it to English any time except in the middle of guessing a word.
